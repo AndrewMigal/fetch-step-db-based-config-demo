@@ -2,7 +2,7 @@ plan:
 - default
 - second
 
-profiles:
+steps:
   default:
     input:
       - fetch-step-db-based-config-demo
