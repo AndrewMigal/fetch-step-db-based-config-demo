@@ -1,5 +1,5 @@
-plan:
+pipeline:
 - default
 - second
-profiles:
+steps:
   '1'
