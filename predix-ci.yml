@@ -1,7 +1,7 @@
-pipeline:
+plan:
 - default
 - second
-steps:
+profiles:
   default:
     input:
       - fetch-step-db-based-config-demo
@@ -10,5 +10,5 @@ steps:
       - test_dir
   second:
     input:
-      - test_dir
+      1
     script: './test_dir/second.sh'
