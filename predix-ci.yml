@@ -4,11 +4,11 @@ plan:
 profiles:
   default:
     input:
-      - fetch-step-db-based-config-demo
+      1
     script: './fetch-step-db-based-config-demo/default.sh && mv fetch-step-db-based-config-demo test_dir'
     output:
       - test_dir
   second:
     input:
-      1
+      - test_dir
     script: './test_dir/second.sh'
