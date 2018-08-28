@@ -4,7 +4,7 @@ pipeline:
 steps:
   default:
     input:
-      1
+      - fetch-step-db-based-config-demo
     script: './fetch-step-db-based-config-demo/default.sh && mv fetch-step-db-based-config-demo test_dir'
     output:
       - test_dir
