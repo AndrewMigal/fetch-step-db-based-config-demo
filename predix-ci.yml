@@ -10,5 +10,5 @@ steps:
       - test_dir
   second:
     input:
-      1
+      - test_dir
     script: './test_dir/second.sh'
