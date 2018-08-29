@@ -1,5 +1,5 @@
 pipeline:
-1
+  1
 steps:
   default:
     input:
